@@ -71,7 +71,7 @@ export default function App() {
             <section key={product.name} className={product.type}>
               <h2>{product.name}</h2>
               <p>${product.price.toFixed(2)}</p>
-              <img src={`public/images/${product.image}`} alt={product.name} />
+              <img src={`/images/${product.image}`} alt={product.name} />
             </section>
           ))}
         </main>
