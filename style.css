@@ -19,7 +19,7 @@ html {
   
   h1 {
     font-size: 5rem;
-    background: url(icons/bean_can.png) no-repeat 20% center, url(icons/bean_can.png) no-repeat 80% center;
+    background: url(/icons/bean_can.png) no-repeat 20% center, url(/icons/bean_can.png) no-repeat 80% center;
     background-size: 48px 48px;
   }
   
@@ -79,8 +79,6 @@ html {
     flex: 7;
   }
   
-  /* Form styling */
-  
   aside {
     display: flex;
     flex-flow: column;
@@ -121,8 +119,6 @@ html {
     box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
   }
   
-  /* Styling the products */
-  
   main {
     display: flex;
     flex-flow: row wrap;
@@ -160,17 +156,17 @@ html {
   }
   
   .vegetables {
-    background: black url(icons/vegetable.png) no-repeat 2px 2px;
+    background: black url(/icons/vegetable.png) no-repeat 2px 2px;
     background-size: 24px 24px;
   }
   
   .meat {
-    background: black url(icons/meat.png) no-repeat 2px 2px;
+    background: black url(/icons/meat.png) no-repeat 2px 2px;
     background-size: 24px 24px;
   }
   
   .soup {
-    background: black url(icons/soup.png) no-repeat 2px 2px;
+    background: black url(/icons/soup.png) no-repeat 2px 2px;
     background-size: 24px 24px;
   }
   
@@ -187,7 +183,7 @@ html {
     header h1 {
       font-size: 3.5rem;
       font-weight: bold;
-      background: url(icons/bean_can.png) no-repeat 0% center, url(icons/bean_can.png) no-repeat 100% center;
+      background: url(/icons/bean_can.png) no-repeat 0% center, url(/icons/bean_can.png) no-repeat 100% center;
       background-size: 48px 48px;
     }
     aside {
